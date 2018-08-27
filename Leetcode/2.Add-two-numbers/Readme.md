@@ -9,4 +9,4 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 **Output:** 7 -> 0 -> 8
 **Explanation:** 342 + 465 = 807.
 ```
-you can find issue by the [following link](https://leetcode.com/problems/two-sum/description/).
+you can find issue by the [following link](https://leetcode.com/problems/add-two-numbers/).

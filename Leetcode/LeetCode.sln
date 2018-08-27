@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Add-two-numbers", "2.Add-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.UnitTests", "Leetcode.UnitTests\Leetcode.UnitTests.csproj", "{549B37E4-B564-459A-97D9-B19C21A16099}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.ReverseInteger", "1.Two-Sum\7.ReverseInteger\7.ReverseInteger.csproj", "{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -29,9 +31,14 @@ Global
 		{549B37E4-B564-459A-97D9-B19C21A16099}.Debug|x86.Build.0 = Debug|Any CPU
 		{549B37E4-B564-459A-97D9-B19C21A16099}.Release|x86.ActiveCfg = Release|Any CPU
 		{549B37E4-B564-459A-97D9-B19C21A16099}.Release|x86.Build.0 = Release|Any CPU
+		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}.Debug|x86.ActiveCfg = Debug|x86
+		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}.Debug|x86.Build.0 = Debug|x86
+		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}.Release|x86.ActiveCfg = Release|x86
+		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{57B7701E-038E-47B8-8093-B4FC7F243616} = {5BEF2735-7F10-4819-AB03-B79DE4F6BF43}
 		{52ED07AC-1CC8-406D-B8A7-58B4E5C2978C} = {7B3880FF-EF45-4091-84D9-0012D3FB65CB}
+		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04} = {5BEF2735-7F10-4819-AB03-B79DE4F6BF43}
 	EndGlobalSection
 EndGlobal

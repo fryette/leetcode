@@ -35,6 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\2.AddTwoNumbersTests.cs" />
+    <Compile Include="Easy\ReverseIntegerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Easy\" />
@@ -45,6 +46,14 @@
     <ProjectReference Include="..\2.Add-two-numbers\2.Add-two-numbers.csproj">
       <Project>{52ED07AC-1CC8-406D-B8A7-58B4E5C2978C}</Project>
       <Name>2.Add-two-numbers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\1.Two-Sum\7.ReverseInteger\7.ReverseInteger.csproj">
+      <Project>{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}</Project>
+      <Name>7.ReverseInteger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\1.Two-Sum\1.Two-Sum.csproj">
+      <Project>{57B7701E-038E-47B8-8093-B4FC7F243616}</Project>
+      <Name>1.Two-Sum</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

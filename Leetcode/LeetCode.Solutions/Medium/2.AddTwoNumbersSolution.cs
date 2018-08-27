@@ -1,23 +1,8 @@
-﻿namespace Addtwonumbers
+﻿namespace LeetCode.Solutions.Medium
 {
-    class MainClass
+    public class AddTwoNumbersSolution
     {
-        public static void Main(string[] args)
-        {
-            var result = new Solution().AddTwoNumbers(new ListNode(1), new ListNode(9) { next = new ListNode(9) });
-        }
-    }
-
-
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
-    }
-
-    public class Solution
-    {
+        //description of problem link: https://leetcode.com/problems/add-two-numbers/description/
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             ListNode node = new ListNode(0);
@@ -66,6 +51,12 @@
 
             return node.next;
         }
+    }
 
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+        public ListNode(int x) { val = x; }
     }
 }

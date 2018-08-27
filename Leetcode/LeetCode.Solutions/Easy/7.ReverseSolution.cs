@@ -1,14 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ReverseInteger
+namespace LeetCode.Solutions.Easy
 {
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
-        }
-    }
-
+    //description of problem link: https://leetcode.com/problems/reverse-integer/description/
     public class ReverseSolution
     {
         public int Reverse(int x)

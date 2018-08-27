@@ -1,17 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{5BEF2735-7F10-4819-AB03-B79DE4F6BF43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Tests", "LeetCode.Tests\LeetCode.Tests.csproj", "{4A830027-7B4C-434F-ABE0-4A4D6E2464D7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{7B3880FF-EF45-4091-84D9-0012D3FB65CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Solutions", "LeetCode.Solutions\LeetCode.Solutions.csproj", "{1834355B-0147-430C-A1C2-23B5A12B9793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.UnitTests", "Leetcode.UnitTests\Leetcode.UnitTests.csproj", "{549B37E4-B564-459A-97D9-B19C21A16099}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Two-Sum", "Easy\1.Two-Sum\1.Two-Sum.csproj", "{57B7701E-038E-47B8-8093-B4FC7F243616}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.ReverseInteger", "Easy\7.ReverseInteger\7.ReverseInteger.csproj", "{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Add-two-numbers", "Medium\2.Add-two-numbers\2.Add-two-numbers.csproj", "{52ED07AC-1CC8-406D-B8A7-58B4E5C2978C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.SolutionsRunner", "LeetCode.SolutionsRunner\LeetCode.SolutionsRunner.csproj", "{44F1BCE9-FA0C-4296-8FFC-AC58D32B9CDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +13,19 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{549B37E4-B564-459A-97D9-B19C21A16099}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{549B37E4-B564-459A-97D9-B19C21A16099}.Debug|x86.Build.0 = Debug|Any CPU
-		{549B37E4-B564-459A-97D9-B19C21A16099}.Release|x86.ActiveCfg = Release|Any CPU
-		{549B37E4-B564-459A-97D9-B19C21A16099}.Release|x86.Build.0 = Release|Any CPU
-		{57B7701E-038E-47B8-8093-B4FC7F243616}.Debug|x86.ActiveCfg = Debug|x86
-		{57B7701E-038E-47B8-8093-B4FC7F243616}.Debug|x86.Build.0 = Debug|x86
-		{57B7701E-038E-47B8-8093-B4FC7F243616}.Release|x86.ActiveCfg = Release|x86
-		{57B7701E-038E-47B8-8093-B4FC7F243616}.Release|x86.Build.0 = Release|x86
-		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}.Debug|x86.ActiveCfg = Debug|x86
-		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}.Debug|x86.Build.0 = Debug|x86
-		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}.Release|x86.ActiveCfg = Release|x86
-		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04}.Release|x86.Build.0 = Release|x86
-		{52ED07AC-1CC8-406D-B8A7-58B4E5C2978C}.Debug|x86.ActiveCfg = Debug|x86
-		{52ED07AC-1CC8-406D-B8A7-58B4E5C2978C}.Debug|x86.Build.0 = Debug|x86
-		{52ED07AC-1CC8-406D-B8A7-58B4E5C2978C}.Release|x86.ActiveCfg = Release|x86
-		{52ED07AC-1CC8-406D-B8A7-58B4E5C2978C}.Release|x86.Build.0 = Release|x86
+		{4A830027-7B4C-434F-ABE0-4A4D6E2464D7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A830027-7B4C-434F-ABE0-4A4D6E2464D7}.Debug|x86.Build.0 = Debug|Any CPU
+		{4A830027-7B4C-434F-ABE0-4A4D6E2464D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A830027-7B4C-434F-ABE0-4A4D6E2464D7}.Release|x86.Build.0 = Release|Any CPU
+		{1834355B-0147-430C-A1C2-23B5A12B9793}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1834355B-0147-430C-A1C2-23B5A12B9793}.Debug|x86.Build.0 = Debug|Any CPU
+		{1834355B-0147-430C-A1C2-23B5A12B9793}.Release|x86.ActiveCfg = Release|Any CPU
+		{1834355B-0147-430C-A1C2-23B5A12B9793}.Release|x86.Build.0 = Release|Any CPU
+		{44F1BCE9-FA0C-4296-8FFC-AC58D32B9CDB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44F1BCE9-FA0C-4296-8FFC-AC58D32B9CDB}.Debug|x86.Build.0 = Debug|Any CPU
+		{44F1BCE9-FA0C-4296-8FFC-AC58D32B9CDB}.Release|x86.ActiveCfg = Release|Any CPU
+		{44F1BCE9-FA0C-4296-8FFC-AC58D32B9CDB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{57B7701E-038E-47B8-8093-B4FC7F243616} = {5BEF2735-7F10-4819-AB03-B79DE4F6BF43}
-		{FCCD2DC8-5F52-411E-BD04-FDADD9161B04} = {5BEF2735-7F10-4819-AB03-B79DE4F6BF43}
-		{52ED07AC-1CC8-406D-B8A7-58B4E5C2978C} = {7B3880FF-EF45-4091-84D9-0012D3FB65CB}
 	EndGlobalSection
 EndGlobal

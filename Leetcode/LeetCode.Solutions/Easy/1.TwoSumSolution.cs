@@ -1,14 +1,7 @@
-﻿namespace TwoSum
+﻿namespace LeetCode.Solutions.Easy
 {
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
-            var result = new Solution().TwoSum(new[] { 2, 7, 11, 15 }, 9);
-        }
-    }
-
-    public class Solution
+    //description of problem link: https://leetcode.com/problems/two-sum/description/
+    public class TwoSumSolution
     {
         public int[] TwoSum(int[] nums, int target)
         {

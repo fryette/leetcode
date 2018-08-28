@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LeetCode.Solutions.Easy
+namespace LeetCode.Solutions.Low
 {
     //description of problem link: https://leetcode.com/problems/reverse-integer/description/
     public class ReverseSolution

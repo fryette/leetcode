@@ -76,7 +76,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Dublications_it_the_beginning()
+        public void Duplications_it_the_beginning()
         {
             // Arrange
             var solution = new LongestSubstringWithoutRepeatingCharactersSolution();

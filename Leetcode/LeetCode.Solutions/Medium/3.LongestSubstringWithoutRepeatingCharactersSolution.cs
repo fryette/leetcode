@@ -8,22 +8,22 @@ namespace LeetCode.Solutions.Medium
         //description of problem link: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
         public int LengthOfLongestSubstring(string s)
         {
-            var dic = new Dictionary<char, int>(s.Length);
+            var dictionary = new Dictionary<char, int>(s.Length);
             var maxResult = 0;
             var count = 0;
 
             for (var i = 0; i < s.Length; i++)
             {
-                if (dic.ContainsKey(s[i]))
+                if (dictionary.ContainsKey(s[i]))
                 {
                     maxResult = count > maxResult ? count : maxResult;
-                    count = Math.Min(count + 1, i - dic[s[i]]);
-                    dic[s[i]] = i;
+                    count = Math.Min(count + 1, i - dictionary[s[i]]);
+                    dictionary[s[i]] = i;
                 }
                 else
                 {
                     ++count;
-                    dic.Add(s[i], i);
+                    dictionary.Add(s[i], i);
                 }
             }
 

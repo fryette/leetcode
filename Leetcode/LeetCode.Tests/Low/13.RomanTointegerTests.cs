@@ -1,7 +1,7 @@
-﻿using LeetCode.Solutions.Easy;
+﻿using LeetCode.Solutions.Low;
 using Xunit;
 
-namespace LeetCode.Tests.Easy
+namespace LeetCode.Tests.Low
 {
     public class RomanTointegerTests
     {

@@ -1,7 +1,7 @@
 ﻿using LeetCode.Solutions.Medium;
 using Xunit;
 
-namespace Leetcode.Tests.Easy
+namespace LeetCode.Tests.Medium
 {
     public class AddTwoNumbersTests
     {

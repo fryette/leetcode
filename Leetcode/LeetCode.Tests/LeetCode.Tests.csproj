@@ -7,6 +7,7 @@
   <ItemGroup>
     <Folder Include="Low\" />
     <Folder Include="Medium\" />
+    <Folder Include="High\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />

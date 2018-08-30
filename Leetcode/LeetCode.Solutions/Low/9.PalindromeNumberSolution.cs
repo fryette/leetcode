@@ -1,5 +1,6 @@
 ﻿namespace LeetCode.Solutions.Low
 {
+    //for problem description check https://leetcode.com/problems/palindrome-number/description/
     public class PalindromeNumberSolution
     {
         public bool IsPalindrome(int x)

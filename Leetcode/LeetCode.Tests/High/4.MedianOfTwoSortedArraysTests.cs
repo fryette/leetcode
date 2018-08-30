@@ -10,7 +10,7 @@ namespace LeetCode.Tests.High
         {
             // Arrange
             var solution = new MedianOfTwoSortedArrays();
-            var expected = 17;
+            var expected = 2;
 
             //act
             var result = solution.FindMedianSortedArrays(new[] { 1,2,3 }, new[] { 1,2,4,5 });

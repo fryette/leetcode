@@ -11,18 +11,19 @@
             }
 
             string s = strs[0];
-            var i = 0;
-            while (true)
+            for (int i = 0; i < s.Length; i++)
             {
+                char c = s[i];
                 for (int j = 1; j < strs.Length; j++)
                 {
-                    if (i == strs[j].Length || strs[j][i] != s[i])
+                    if (i == strs[j].Length || strs[j][i] != c)
                     {
                         return s.Substring(0, i);
                     }
                 }
-                ++i;
             }
+
+            return s;
         }
     }
 }

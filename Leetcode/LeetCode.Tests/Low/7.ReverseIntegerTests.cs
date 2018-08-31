@@ -48,7 +48,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Zer_Number()
+        public void Zero_Number()
         {
             // Arrange
             var solution = new ReverseIntegerSolution();
@@ -56,6 +56,20 @@ namespace LeetCode.Tests.Low
 
             //act
             var result = solution.Reverse(0);
+
+            //Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Fact]
+        public void Reversed_number_bigger_then_max_int_should_return_zero()
+        {
+            // Arrange
+            var solution = new ReverseIntegerSolution();
+            var expected = 0;
+
+            //act
+            var result = solution.Reverse(1534236469);
 
             //Assert
             Assert.Equal(expected, result);

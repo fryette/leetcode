@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System;
 
 namespace LeetCode.Solutions.Low
 {
@@ -7,45 +7,20 @@ namespace LeetCode.Solutions.Low
     {
         public int Reverse(int x)
         {
-            var sign = 1;
-
-            if (x < 10 && x > -10)
-            {
-                return x;
-            }
-
-            if (x < 0)
-            {
-                sign = -1;
-                x *= -1;
-            }
-
-            var num = new List<int>();
-
-            while (x >= 1)
-            {
-                num.Add(x % 10);
-                x /= 10;
-            }
-
             var result = 0;
-            var carry = 1;
-            for (var i = num.Count - 1; i >= 0; i--)
+
+            while (x != 0)
             {
-                try
-                {
-                    result = checked(result + num[i] * carry);
-                }
-                catch
+                if (Math.Abs(result) < 214748364)
                 {
                     return 0;
                 }
-
-
-                carry *= 10;
+                var lastDigit = x % 10;
+                result = result * 10 + lastDigit;
+                x = x / 10;
             }
 
-            return result * sign;
+            return result;
         }
     }
 }

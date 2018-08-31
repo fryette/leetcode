@@ -21,7 +21,7 @@ namespace LeetCode.Solutions.Low
                 {
                     dictionary.Add(nums[i], i);
                 }
-            }
+            } 
 
             return null;
         }

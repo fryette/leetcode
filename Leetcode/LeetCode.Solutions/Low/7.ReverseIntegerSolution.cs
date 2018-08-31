@@ -11,7 +11,7 @@ namespace LeetCode.Solutions.Low
 
             while (x != 0)
             {
-                if (Math.Abs(result) < 214748364)
+                if (Math.Abs(result) > 214748364)
                 {
                     return 0;
                 }

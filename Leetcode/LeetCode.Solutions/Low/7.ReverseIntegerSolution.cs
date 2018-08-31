@@ -3,7 +3,7 @@
 namespace LeetCode.Solutions.Low
 {
     //description of problem link: https://leetcode.com/problems/reverse-integer/description/
-    public class ReverseSolution
+    public class ReverseIntegerSolution
     {
         public int Reverse(int x)
         {

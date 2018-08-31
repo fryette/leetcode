@@ -9,7 +9,7 @@ namespace LeetCode.Tests.Low
         public void Common_Test()
         {
             // Arrange
-            var solution = new ReverseSolution();
+            var solution = new ReverseIntegerSolution();
             var expected = 321;
 
             //act
@@ -23,7 +23,7 @@ namespace LeetCode.Tests.Low
         public void Negative_Number()
         {
             // Arrange
-            var solution = new ReverseSolution();
+            var solution = new ReverseIntegerSolution();
             var expected = -321;
 
             //act
@@ -37,7 +37,7 @@ namespace LeetCode.Tests.Low
         public void Zero_End()
         {
             // Arrange
-            var solution = new ReverseSolution();
+            var solution = new ReverseIntegerSolution();
             var expected = 21;
 
             //act
@@ -51,7 +51,7 @@ namespace LeetCode.Tests.Low
         public void Zer_Number()
         {
             // Arrange
-            var solution = new ReverseSolution();
+            var solution = new ReverseIntegerSolution();
             var expected = 0;
 
             //act

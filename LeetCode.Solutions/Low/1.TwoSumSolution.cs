@@ -9,7 +9,7 @@ namespace LeetCode.Solutions.Low
         {
             var dictionary = new Dictionary<int, int>();
 
-            for (int i = 0; i < nums.Length; i++)
+            for (var i = 0; i < nums.Length; i++)
             {
                 var difference = target - nums[i];
 

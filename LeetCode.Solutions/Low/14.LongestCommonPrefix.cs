@@ -10,11 +10,11 @@
                 return "";
             }
 
-            string s = strs[0];
-            for (int i = 0; i < s.Length; i++)
+            var s = strs[0];
+            for (var i = 0; i < s.Length; i++)
             {
-                char c = s[i];
-                for (int j = 1; j < strs.Length; j++)
+                var c = s[i];
+                for (var j = 1; j < strs.Length; j++)
                 {
                     if (i == strs[j].Length || strs[j][i] != c)
                     {

@@ -1,4 +1,4 @@
-﻿using LeetCode.Solutions.Low;
+﻿using LeetCode.Solutions.High;
 using Xunit;
 
 namespace LeetCode.Tests.High

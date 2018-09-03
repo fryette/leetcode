@@ -4,7 +4,7 @@
     {
         public int[] TwoSum(int[] numbers, int target)
         {
-            for (int i = 0; i < numbers.Length; i++)
+            for (var i = 0; i < numbers.Length; i++)
             {
                 var binarySearchResult = BinarySearch(numbers, target - numbers[i], i + 1);
 
@@ -19,12 +19,12 @@
 
         private static int BinarySearch(int[] array, int x, int start)
         {
-            int first = start;
-            int last = array.Length - 1;
+            var first = start;
+            var last = array.Length - 1;
 
             while (first < last)
             {
-                int mid = first + (last - first) / 2;
+                var mid = first + (last - first) / 2;
 
                 if (x <= array[mid])
                 {

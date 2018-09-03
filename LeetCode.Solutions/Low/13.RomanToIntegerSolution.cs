@@ -21,15 +21,15 @@
                 return -1;
             }
 
-            int total = 0;
+            var total = 0;
             var i = 0;
-            int maxLength = s.Length - 1;
+            var maxLength = s.Length - 1;
 
             for (i = 0; i < maxLength; i++)
             {
-                int num = GetBasicNumber(s[i]);
+                var num = GetBasicNumber(s[i]);
 
-                int nextNum = GetBasicNumber(s[i + 1]);
+                var nextNum = GetBasicNumber(s[i + 1]);
 
                 if (num >= nextNum)
                 {

@@ -5,14 +5,14 @@
         //description of problem link: https://leetcode.com/problems/add-two-numbers/description/
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
-            ListNode node = new ListNode(0);
+            var node = new ListNode(0);
             var next = node;
 
-            int remain = 0;
+             var remain = 0;
 
             while (l1 != null || l2 != null)
             {
-                int sum = remain;
+                var sum = remain;
                 remain = 0;
 
                 if (l1 == null)

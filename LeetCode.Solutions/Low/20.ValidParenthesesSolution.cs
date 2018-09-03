@@ -10,10 +10,10 @@ namespace LeetCode.Solutions.Low
 
         public bool IsValid(string s)
         {
-            char nextClosedBracket = '\0';
+            var nextClosedBracket = '\0';
             var openedracketsStack = new Stack<char>();
 
-            for (int i = 0; i < s.Length; i++)
+            for (var i = 0; i < s.Length; i++)
             {
                 if (!_dictionary.ContainsKey(s[i]))
                 {

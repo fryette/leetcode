@@ -17,7 +17,7 @@ namespace LeetCode.Solutions.Medium
                 if (dictionary.ContainsKey(s[i]))
                 {
                     maxResult = count > maxResult ? count : maxResult;
-                    count = Math.Min(count + 1, i - dictionary[s[i]]);
+                    count = Math.Min(count, i - dictionary[s[i]]);
                     dictionary[s[i]] = i;
                 }
                 else

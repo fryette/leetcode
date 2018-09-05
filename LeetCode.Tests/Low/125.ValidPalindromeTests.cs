@@ -6,7 +6,7 @@ namespace LeetCode.Tests.Low
     public class ValidPalindromeTests
     {
         [Fact]
-        public void Palindrome_should_return_true()
+        public void Palindrome_Should_Return_True()
         {
             // Arrange
             var solution = new ValidPalindromeSolution();
@@ -19,7 +19,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void String_should_return_false()
+        public void String_Should_Return_False()
         {
             // Arrange
             var solution = new ValidPalindromeSolution();
@@ -32,7 +32,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Empty_string_should_return_false()
+        public void Empty_String_Should_Return_False()
         {
             // Arrange
             var solution = new ValidPalindromeSolution();
@@ -45,7 +45,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Two_different_symbols_should_return_false()
+        public void Two_Different_Symbols_Should_Return_False()
         {
             // Arrange
             var solution = new ValidPalindromeSolution();
@@ -58,7 +58,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Two_different_NonAphanumeric_symbols_should_return_true()
+        public void Two_Different_NonAlphanumeric_Symbols_Should_Return_True()
         {
             // Arrange
             var solution = new ValidPalindromeSolution();
@@ -71,7 +71,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Two_different_symbols_where_one_of_them_non_letter_should_return_true()
+        public void Two_Different_Symbols_Where_One_Of_Them_Non_Letter_Should_Return_True()
         {
             // Arrange
             var solution = new ValidPalindromeSolution();
@@ -84,7 +84,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void One_empty_symbol_should_return_true()
+        public void One_Empty_Symbol_Should_Return_True()
         {
             // Arrange
             var solution = new ValidPalindromeSolution();
@@ -97,7 +97,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Only_NonAlphaNumeric_symbols_in__string_should_return_true()
+        public void Only_NonAlphaNumeric_Symbols_In_String_Should_Return_True()
         {
             // Arrange
             var solution = new ValidPalindromeSolution();

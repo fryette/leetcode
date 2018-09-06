@@ -6,7 +6,7 @@ namespace LeetCode.Tests.Low
     public class PalindromeNumberTests
     {
         [Fact]
-        public void Common_case_should_be_true()
+        public void Common_Case_Should_Be_True()
         {
             // Arrange
             var solution = new PalindromeNumberSolution();
@@ -19,7 +19,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Common_case_should_be_false()
+        public void Common_Case_Should_Be_False()
         {
             // Arrange
             var solution = new PalindromeNumberSolution();
@@ -32,7 +32,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Max_int_should_be_false()
+        public void Max_Int_Should_Be_False()
         {
             // Arrange
             var solution = new PalindromeNumberSolution();
@@ -45,7 +45,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Odd_polindrome_number_should_return_true()
+        public void Odd_Palindrome_Number_Should_Return_True()
         {
             // Arrange
             var solution = new PalindromeNumberSolution();
@@ -58,7 +58,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void If_value_is_10_should_return_false()
+        public void If_Value_Is_10_Should_Return_False()
         {
             // Arrange
             var solution = new PalindromeNumberSolution();
@@ -71,7 +71,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void If_positive_value_less_then_10_should_return_false()
+        public void If_Positive_Value_Less_Then_10_Should_Return_True()
         {
             // Arrange
             var solution = new PalindromeNumberSolution();
@@ -90,13 +90,26 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void If_negative_value_should_return_false()
+        public void If_Negative_Value_Should_Return_False()
         {
             // Arrange
             var solution = new PalindromeNumberSolution();
 
             //act
-            var result = solution.IsPalindrome(int.MinValue);
+            var result = solution.IsPalindrome(-11);
+
+            //Assert
+            Assert.False(result);
+        }
+        
+        [Fact]
+        public void If_Negative_One_Digit_Value_Should_Return_False()
+        {
+            // Arrange
+            var solution = new PalindromeNumberSolution();
+
+            //act
+            var result = solution.IsPalindrome(-1);
 
             //Assert
             Assert.False(result);

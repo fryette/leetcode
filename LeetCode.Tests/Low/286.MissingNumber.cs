@@ -58,19 +58,6 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void One_Single_Digit_Above_One_Return_Next()
-        {
-            // Arrange
-            var solution = new MissingNumberSolution();
-
-            //act
-            var result = solution.MissingNumber(new[] {2});
-
-            //Assert
-            Assert.Equal(3, result);
-        }
-
-        [Fact]
         public void Sequence_With_Zero_Return_Missed_Item()
         {
             // Arrange

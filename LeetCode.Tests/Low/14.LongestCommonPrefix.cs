@@ -19,7 +19,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Empty_first_massive_item_result_should_be_empty_string()
+        public void Empty_First_Massive_Item_Result_Should_Be_Empty_String()
         {
             // Arrange
             var solution = new LongestCommonPrefixSolution();

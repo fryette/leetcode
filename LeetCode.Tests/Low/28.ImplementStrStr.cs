@@ -7,7 +7,7 @@ namespace LeetCode.Tests.Low
     public class ImplementStrStrTests
     {
         [Fact]
-        public void Common_test_should_return_proper_result()
+        public void Common_Test_Should_Return_Proper_Result()
         {
             // Arrange
             var solution = new ImplementStrStrSolution();
@@ -21,7 +21,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Common_test_should_return_not_found_result()
+        public void Common_Test_Should_Return_Not_Found_Result()
         {
             // Arrange
             var solution = new ImplementStrStrSolution();
@@ -35,7 +35,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Empty_string_should_return_zero()
+        public void Empty_String_Should_Return_Zero()
         {
             // Arrange
             var solution = new ImplementStrStrSolution();
@@ -49,7 +49,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Empty_haystack_should_return_not_found()
+        public void Empty_Haystack_Should_Return_Not_Found()
         {
             // Arrange
             var solution = new ImplementStrStrSolution();
@@ -63,7 +63,7 @@ namespace LeetCode.Tests.Low
         }
         
         [Fact]
-        public void One_character_in_both_strings_should_return_proper_result()
+        public void One_Character_In_Both_Strings_Should_Return_Proper_Result()
         {
             // Arrange
             var solution = new ImplementStrStrSolution();
@@ -77,7 +77,7 @@ namespace LeetCode.Tests.Low
         }
         
         [Fact]
-        public void Common_case_2_should_return_proper_result()
+        public void Common_Case_2_Should_Return_Proper_Result()
         {
             // Arrange
             var solution = new ImplementStrStrSolution();

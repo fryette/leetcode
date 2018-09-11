@@ -8,7 +8,7 @@ namespace LeetCode.Tests.Medium
     public class StringToIntegerAtoiTests
     {
         [Fact]
-        public void Common_test()
+        public void Common_Test()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -22,7 +22,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Empty_string_return_zero()
+        public void Empty_String_Return_Zero()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -36,7 +36,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Common_test_with_munis_sign()
+        public void Common_Test_With_Minis_Sign()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -50,7 +50,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void String_with_spaces()
+        public void String_With_Spaces()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -64,7 +64,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void String_with_spaces_and_letters()
+        public void String_With_Spaces_And_Letters()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -78,7 +78,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void String_with_first_letters_should_return_zero_value()
+        public void String_With_First_Letters_Should_Return_Zero_Value()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -92,7 +92,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Max_int_should_return_max_int()
+        public void Max_Int_Should_Return_Max_Int()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -106,7 +106,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Min_int_should_return_min_int()
+        public void Min_Int_Should_Return_Min_Int()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -134,7 +134,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Less_then_Max_int_should_return_proper_value1()
+        public void Less_Then_Max_Int_Should_Return_Proper_Value1()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -148,7 +148,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Overflow_should_return_max_int()
+        public void Overflow_Should_Return_Max_Int()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -162,7 +162,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Plus_sigh_should_be_handled_properly()
+        public void Plus_Sigh_Should_Be_Handled_Properly()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -176,7 +176,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Few_plus_sighs_should_be_handled_properly()
+        public void Few_Plus_Sighs_Should_Be_Handled_Properly()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();
@@ -190,7 +190,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Few_plus_sighs_should_be_handled_properly1()
+        public void Few_Plus_Sighs_Should_Be_Handled_Properly1()
         {
             // Arrange
             var solution = new StringToIntegerAtoiSolution();

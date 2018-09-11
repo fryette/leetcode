@@ -8,7 +8,7 @@ namespace LeetCode.Tests.Medium
     public class ReverseWordsInAStringTests
     {
         [Fact]
-        public void Common_test_should_return_proper_result()
+        public void Common_Test_Should_Return_Proper_Result()
         {
             // Arrange
             var solution = new ReverseWordsInAStringSolution();
@@ -22,7 +22,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void String_with_few_leading_and_trailing_spaces()
+        public void String_With_Few_Leading_And_Trailing_Spaces()
         {
             // Arrange
             var solution = new ReverseWordsInAStringSolution();
@@ -36,7 +36,7 @@ namespace LeetCode.Tests.Medium
         }
         
         [Fact]
-        public void String_with_few_spaces_in_the_middle_of_the_string()
+        public void String_With_Few_Spaces_In_The_Middle_Of_The_String()
         {
             // Arrange
             var solution = new ReverseWordsInAStringSolution();
@@ -50,7 +50,7 @@ namespace LeetCode.Tests.Medium
         }
         
         [Fact]
-        public void One_word_int_string()
+        public void One_Word_Int_String()
         {
             // Arrange
             var solution = new ReverseWordsInAStringSolution();
@@ -64,7 +64,7 @@ namespace LeetCode.Tests.Medium
         }
         
         [Fact]
-        public void Empty_string_should_return_empty_string()
+        public void Empty_String_Should_Return_Empty_String()
         {
             // Arrange
             var solution = new ReverseWordsInAStringSolution();

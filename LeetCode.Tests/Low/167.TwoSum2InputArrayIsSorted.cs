@@ -17,11 +17,11 @@ namespace LeetCode.Tests.Low
             var result = solution.TwoSum(new[] { 2, 7, 11, 15 }, 9);
 
             //Assert
-            Assert.True(Enumerable.SequenceEqual(expected, result));
+            Assert.True(expected.SequenceEqual(result));
         }
 
         [Fact]
-        public void Different_positions_should_not_affect_result()
+        public void Different_Positions_Should_Not_Affect_Result()
         {
             // Arrange
             var solution = new TwoSum2InputArrayIsSortedSolution();
@@ -31,11 +31,11 @@ namespace LeetCode.Tests.Low
             var result = solution.TwoSum(new[] { 2, 5, 7, 11, 15 }, 9);
 
             //Assert
-            Assert.True(Enumerable.SequenceEqual(expected, result));
+            Assert.True(expected.SequenceEqual(result));
         }
 
         [Fact]
-        public void Duplications_in_array_should_not_affect_result()
+        public void Duplications_In_Array_Should_Not_Affect_Result()
         {
             // Arrange
             var solution = new TwoSum2InputArrayIsSortedSolution();
@@ -45,11 +45,11 @@ namespace LeetCode.Tests.Low
             var result = solution.TwoSum(new[] { 2, 2, 7, 11, 15 }, 9);
 
             //Assert
-            Assert.True(Enumerable.SequenceEqual(expected, result));
+            Assert.True(expected.SequenceEqual(result));
         }
 
         [Fact]
-        public void Right_numbers_at_the_boarder()
+        public void Right_Numbers_At_The_Boarder()
         {
             // Arrange
             var solution = new TwoSum2InputArrayIsSortedSolution();
@@ -59,7 +59,7 @@ namespace LeetCode.Tests.Low
             var result = solution.TwoSum(new[] { 5, 25, 75 }, 100);
 
             //Assert
-            Assert.True(Enumerable.SequenceEqual(expected, result));
+            Assert.True(expected.SequenceEqual(result));
         }
     }
 }

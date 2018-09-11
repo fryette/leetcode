@@ -18,7 +18,7 @@ namespace LeetCode.Tests.Low
             Assert.True(result);
         }
         [Fact]
-        public void Empty_string_should_return_true()
+        public void Empty_String_Should_Return_True()
         {
             // Arrange
             var solution = new ValidParenthesesSolution();
@@ -31,7 +31,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void One_sumbol_should_return_false()
+        public void One_Symbol_Should_Return_False()
         {
             // Arrange
             var solution = new ValidParenthesesSolution();
@@ -44,7 +44,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void One_closed_bracket_should_return_false()
+        public void One_Closed_Bracket_Should_Return_False()
         {
             // Arrange
             var solution = new ValidParenthesesSolution();
@@ -57,7 +57,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Invalid_open_close_brackets_should_return_false()
+        public void Invalid_Open_Close_Brackets_Should_Return_False()
         {
             // Arrange
             var solution = new ValidParenthesesSolution();
@@ -70,7 +70,7 @@ namespace LeetCode.Tests.Low
         }
 
         [Fact]
-        public void Nested_brackets_should_return_true()
+        public void Nested_Brackets_Should_Return_True()
         {
             // Arrange
             var solution = new ValidParenthesesSolution();

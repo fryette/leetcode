@@ -34,7 +34,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Zero_length()
+        public void Zero_Length()
         {
             // Arrange
             var solution = new LongestSubstringWithoutRepeatingCharactersSolution();
@@ -48,7 +48,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Second_part_is_right_subststring()
+        public void Second_Part_Is_Right_Sub_String()
         {
             // Arrange
             var solution = new LongestSubstringWithoutRepeatingCharactersSolution();
@@ -62,7 +62,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Test_with_dublicate_chars()
+        public void Test_With_Duplicate_Chars()
         {
             // Arrange
             var solution = new LongestSubstringWithoutRepeatingCharactersSolution();
@@ -76,7 +76,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Duplications_it_the_beginning()
+        public void Duplications_In_Beginning()
         {
             // Arrange
             var solution = new LongestSubstringWithoutRepeatingCharactersSolution();
@@ -90,7 +90,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Last_Part_is_longest_substring()
+        public void Last_Part_Is_Longest_Substring()
         {
             // Arrange
             var solution = new LongestSubstringWithoutRepeatingCharactersSolution();
@@ -104,7 +104,7 @@ namespace LeetCode.Tests.Medium
         }
 
         [Fact]
-        public void Last_Part_is_longest_substring2()
+        public void Last_Part_Is_Longest_Substring2()
         {
             // Arrange
             var solution = new LongestSubstringWithoutRepeatingCharactersSolution();

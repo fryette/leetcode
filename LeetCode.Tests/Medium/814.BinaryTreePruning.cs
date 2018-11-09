@@ -1,6 +1,7 @@
 using LeetCode.Solutions.Medium;
 using Xunit;
-using TreeNode=LeetCode.Solutions.Medium.BinaryTreePruning.TreeNode;
+using TreeNode = LeetCode.Solutions.Medium.InsertIntoABinarySearchTreeSolution.TreeNode;
+
 namespace LeetCode.Tests.Medium
 {
     public class BinaryTreePruningTests
@@ -9,50 +10,19 @@ namespace LeetCode.Tests.Medium
         public void Common_Case()
         {
             // Arrange
-            var solution = new BinaryTreePruning();
+            var solution = new InsertIntoABinarySearchTreeSolution();
 
-            var treeNode = new TreeNode(1)
+            var treeNode = new TreeNode(4)
             {
-                left = new TreeNode(0)
+                left = new TreeNode(2)
                 {
-                    left = new TreeNode(1)
-                    {
-                        left = new TreeNode(1),
-                        right = new TreeNode(0)
-                        {
-                            left = new TreeNode(0)
-                            {
-                                left = new TreeNode(1),
-                                right = new TreeNode(0)
-                            }
-                        }
-                    },
-                    right = new TreeNode(0)
+                    left = new TreeNode(1),
+                    right = new TreeNode(3)
                 },
-                right = new TreeNode(1)
-                {
-                    left = new TreeNode(1)
-                    {
-                        left = new TreeNode(0),
-                        right = new TreeNode(1)
-                    },
-                    right = new TreeNode(0)
-                    {
-                        left = new TreeNode(0)
-                        {
-                            left = new TreeNode(0),
-                            right = new TreeNode(0)
-                        },
-                        right = new TreeNode(0)
-                        {
-                            left = new TreeNode(0),
-                            right = new TreeNode(0)
-                        }
-                    }
-                }
+                right = new TreeNode(7)
             };
             //act
-            var result = solution.PruneTree(treeNode);
+            var result = solution.InsertIntoBST(treeNode, 5);
 
             //Assert
             //Assert.Equal("aba", result);

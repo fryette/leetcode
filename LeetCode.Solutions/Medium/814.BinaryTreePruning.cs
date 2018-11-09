@@ -1,6 +1,7 @@
 namespace LeetCode.Solutions.Medium
 {
-    public class BinaryTreePruning
+    //https://leetcode.com/problems/binary-tree-pruning/
+    public class BinaryTreePruningSolution
     {
         public class TreeNode
         {

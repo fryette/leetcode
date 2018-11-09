@@ -1,6 +1,6 @@
 using LeetCode.Solutions.Medium;
 using Xunit;
-using TreeNode = LeetCode.Solutions.Medium.InsertIntoABinarySearchTreeSolution.TreeNode;
+using TreeNode = LeetCode.Solutions.Medium.MergeTwoBinaryTreesSolution.TreeNode;
 
 namespace LeetCode.Tests.Medium
 {
@@ -10,7 +10,7 @@ namespace LeetCode.Tests.Medium
         public void Common_Case()
         {
             // Arrange
-            var solution = new InsertIntoABinarySearchTreeSolution();
+            var solution = new MergeTwoBinaryTreesSolution();
 
             var treeNode = new TreeNode(4)
             {
@@ -21,8 +21,18 @@ namespace LeetCode.Tests.Medium
                 },
                 right = new TreeNode(7)
             };
+
+            var treeNode1 = new TreeNode(4)
+            {
+                left = new TreeNode(2),
+                right = new TreeNode(7)
+                {
+                    left = new TreeNode(9),
+                    right = new TreeNode(3)
+                },
+            };
             //act
-            var result = solution.InsertIntoBST(treeNode, 5);
+            var result = solution.MergeTrees(treeNode, treeNode1);
 
             //Assert
             //Assert.Equal("aba", result);

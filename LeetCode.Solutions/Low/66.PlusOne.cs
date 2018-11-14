@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace LeetCode.Solutions.Low
 {
-    //problem description link: https://leetcode.com/problems/plus-one/description/
+    //problem description link: https://leetcode.com/problems/plus-one
     public class PlusOneSolution
     {
         public int[] PlusOne(int[] digits)

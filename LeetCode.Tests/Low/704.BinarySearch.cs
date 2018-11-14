@@ -1,8 +1,8 @@
-using LeetCode.Solutions.Algorithms;
 using LeetCode.Solutions.High;
+using LeetCode.Solutions.Low;
 using Xunit;
 
-namespace LeetCode.Tests.Algorithms
+namespace LeetCode.Tests.Low
 {
     public class BinarySearchTests
     {

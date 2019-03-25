@@ -9,7 +9,7 @@ namespace LeetCode.Solutions.Low
             var sum1 = 0;
             var sum2 = 0;
 
-            for (int i = 0; i < s.Length; i++)
+            for (var i = 0; i < s.Length; i++)
             {
                 sum1 += s[i];
                 sum2 += t[i];

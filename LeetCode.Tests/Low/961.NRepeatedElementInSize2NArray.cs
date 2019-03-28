@@ -9,7 +9,7 @@ namespace LeetCode.Tests.Low
         public void Repeated_Number_At_Start_And_End()
         {
             // Arrange
-            var solution = new NRepeatedElementInSize2NArray();
+            var solution = new NRepeatedElementInSize2NArraySolution();
 
             //act
             var result = solution.RepeatedNTimes(new[] {9,5,6,9});

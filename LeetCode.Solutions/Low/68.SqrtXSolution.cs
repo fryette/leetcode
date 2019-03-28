@@ -3,7 +3,7 @@ using System;
 namespace LeetCode.Solutions.Low
 {
     //https://leetcode.com/problems/sqrtx
-    public class SqrtX
+    public class SqrtXSolution
     {
         public int MySqrt(int x)
         {

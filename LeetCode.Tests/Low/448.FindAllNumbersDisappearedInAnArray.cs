@@ -9,7 +9,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void Common_Case()
         {
-            var solution = new FindAllNumbersDisappearedInAnArray();
+            var solution = new FindAllNumbersDisappearedInAnArraySolution();
             var expectedResult = new List<int> { 5, 6 };
 
             var result = solution.FindDisappearedNumbers(new[] { 4, 3, 2, 7, 8, 2, 3, 1 });

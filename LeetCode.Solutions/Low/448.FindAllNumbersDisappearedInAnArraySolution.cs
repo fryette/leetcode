@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LeetCode.Solutions.Low
 {
-    public class FindAllNumbersDisappearedInAnArray
+    public class FindAllNumbersDisappearedInAnArraySolution
     {
         public IList<int> FindDisappearedNumbers(int[] nums)
         {

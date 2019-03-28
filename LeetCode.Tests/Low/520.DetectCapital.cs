@@ -8,7 +8,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void First_Character_Upper_Other_Lower()
         {
-            var solution = new DetectCapital();
+            var solution = new DetectCapitalSolution();
 
             var result = solution.DetectCapitalUse("Asupertest");
 
@@ -18,7 +18,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void All_Characters_Upper()
         {
-            var solution = new DetectCapital();
+            var solution = new DetectCapitalSolution();
 
             var result = solution.DetectCapitalUse("USA");
 
@@ -28,7 +28,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void All_Characters_Lower()
         {
-            var solution = new DetectCapital();
+            var solution = new DetectCapitalSolution();
 
             var result = solution.DetectCapitalUse("usa");
 
@@ -38,7 +38,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void One_Character_Upper_Case()
         {
-            var solution = new DetectCapital();
+            var solution = new DetectCapitalSolution();
 
             var result = solution.DetectCapitalUse("A");
 
@@ -48,7 +48,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void One_Character_Lower_Case()
         {
-            var solution = new DetectCapital();
+            var solution = new DetectCapitalSolution();
 
             var result = solution.DetectCapitalUse("a");
 
@@ -58,7 +58,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void First_Character_Upper_Last_Character_Upper()
         {
-            var solution = new DetectCapital();
+            var solution = new DetectCapitalSolution();
 
             var result = solution.DetectCapitalUse("AsupertestB");
 
@@ -68,7 +68,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void First_Character_Upper_Center_Character_Upper()
         {
-            var solution = new DetectCapital();
+            var solution = new DetectCapitalSolution();
 
             var result = solution.DetectCapitalUse("AsupeRtestb");
 
@@ -78,7 +78,7 @@ namespace LeetCode.Tests.Low
         [Fact]
         public void Last_Character_Upper()
         {
-            var solution = new DetectCapital();
+            var solution = new DetectCapitalSolution();
 
             var result = solution.DetectCapitalUse("asupertestB");
 

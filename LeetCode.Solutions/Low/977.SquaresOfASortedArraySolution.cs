@@ -3,7 +3,7 @@ using System;
 namespace LeetCode.Solutions.Low
 {
     //https://leetcode.com/problems/squares-of-a-sorted-array
-    public class SquaresOfASortedArray
+    public class SquaresOfASortedArraySolution
     {
         public int[] SortedSquares(int[] A)
         {

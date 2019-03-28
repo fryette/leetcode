@@ -1,9 +1,11 @@
 ﻿namespace LeetCode.Solutions.Low
 {
-    public class DetectCapital
+    //https://leetcode.com/problems/detect-capital/
+    public class DetectCapitalSolution
     {
         public bool DetectCapitalUse(string word)
         {
+            //is Upper
             var firstIsUpper = word[0] <= 90;
             var upperCount = firstIsUpper ? 1 : 0;
 

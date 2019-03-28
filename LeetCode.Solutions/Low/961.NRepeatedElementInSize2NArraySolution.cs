@@ -3,7 +3,7 @@ using System;
 namespace LeetCode.Solutions.Low
 {
     //https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
-    public class NRepeatedElementInSize2NArray
+    public class NRepeatedElementInSize2NArraySolution
     {
         public int RepeatedNTimes(int[] A)
         {

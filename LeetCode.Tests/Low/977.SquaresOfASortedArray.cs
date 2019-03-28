@@ -9,7 +9,7 @@ namespace LeetCode.Tests.Low
         public void Different_Positions_Should_Not_Affect_Result()
         {
             // Arrange
-            var solution = new SquaresOfASortedArray();
+            var solution = new SquaresOfASortedArraySolution();
             var expected = new[] {1, 1, 4, 9};
 
             //act

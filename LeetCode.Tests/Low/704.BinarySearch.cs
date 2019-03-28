@@ -10,7 +10,7 @@ namespace LeetCode.Tests.Low
         public void Common_Test()
         {
             // Arrange
-            var solution = new BinarySearch();
+            var solution = new BinarySearchSolution();
 
             //act
             var result = solution.Search(new[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 8);

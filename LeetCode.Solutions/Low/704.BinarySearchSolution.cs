@@ -1,7 +1,7 @@
 namespace LeetCode.Solutions.Low
 {
     //https://leetcode.com/problems/binary-search/description/
-    public class BinarySearch
+    public class BinarySearchSolution
     {
         public int Search(int[] nums, int target)
         {

@@ -1,5 +1,6 @@
 ﻿namespace LeetCode.Solutions.Low
 {
+    //https://leetcode.com/problems/di-string-match/
     public class DIStringMatchSolution
     {
         public int[] DiStringMatch(string S)
@@ -8,7 +9,7 @@
             var min = 0;
             var result = new int[S.Length + 1];
 
-            for (int i = 0; i < S.Length; i++)
+            for (var i = 0; i < S.Length; i++)
             {
                 if (S[i] == 'I')
                 {

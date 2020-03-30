@@ -16,7 +16,7 @@ namespace LeetCode.Tests.Low
 
             foreach (var s in result)
             {
-                Assert.True(expected.Contains(s));
+                Assert.Contains(s, expected);
             }
 
             Assert.Equal(expected.Length, result.Count);

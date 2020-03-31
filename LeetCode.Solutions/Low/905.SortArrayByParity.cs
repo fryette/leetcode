@@ -1,5 +1,6 @@
 namespace LeetCode.Solutions.Low
 {
+    //https://leetcode.com/problems/sort-array-by-parity/
     public class SortArrayByParitySolution
     {
         public int[] SortArrayByParity(int[] array)

@@ -5,7 +5,7 @@ namespace LeetCode.Solutions.Medium
 {
     public class TreeNode
     {
-        public int val;
+        public readonly int val;
         public TreeNode left;
         public TreeNode right;
 

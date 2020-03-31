@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace LeetCode.Solutions.Low
 {
+    //https://leetcode.com/problems/peak-index-in-a-mountain-array/
     public class PeakIndexInAMountainArraySolution
     {
         public int PeakIndexInMountainArray(int[] a)
